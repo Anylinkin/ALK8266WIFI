@@ -14,15 +14,25 @@ ALK8266WIFI module is suitable for “MCU High-Speed WIFI communication”, appl
 
 3 What are features of ALK8266WIFI ?
 
-The solution is a result of the dedicated design with optimization covering module hardware, module firmware, and MCU host driver. The module firmware is customized from registers level other than base on Espressif standard SDK which is mainly proper form slow-speed UART applications. Therefore, it does not have those problems present in some traditional modules(e.g. frequent unexpected disconnection, communication halt, missing packets, and lack of practical functions). Mass deployment of more than 3 years tells that it is a truly high-speed, stable, flexible, and practically functional module solution:
+The solution is a result of the dedicated design with optimization covering module hardware, module firmware, and 
+MCU host driver. The module firmware is customized from registers level other than base on Espressif standard SDK
+which is mainly proper form slow-speed UART applications. Therefore, it does not have those problems present in 
+some traditional modules(e.g. frequent unexpected disconnection, communication halt, missing packets, and lack of 
+practical functions). Mass deployment of more than 3 years tells that it is a truly high-speed, stable, flexible, 
+and practically functional module solution:
 
  (1) High Effective Speed, Efficient, and Short-Delay
-     > Measured effective speed exceeds Mega Bytes Per secons, capable of fast transmission bulk data such as audio, video, and some other big data.
-     > Nealy-RealTime tranceiving with a gap interval less than 1ms or even 10us, in favor of some applications requiring short-delay communications.
+     > Measured effective speed exceeds Mega Bytes Per secons, capable of fast transmission bulk data such as audio, 
+       video, and some other big data.
+     > Nealy-RealTime tranceiving with a gap interval less than 1ms or even 10us, in favor of some applications requiring 
+       short-delay communications.
      
  (2) Stable with extreamly Low Packet Loss (Actually no packet loss)
-     > Reference testing result #1:  In an ordinary office environment with a stable transmission speed of 1MBytes/s, module could run at least 720 hours without any packet loss or errors, no halt and disconnections.
-     > Reference testing result #2: In an ordinary office environment, with a stable TCP transmission speed of 1MBytes/s  for more than 5 hours, then to compare the transmission side and reception side, there is no packet missing and the two sides have the same datagram.
+     > Reference testing result #1:  In an ordinary office environment with a stable transmission speed of 1MBytes/s, 
+       module could run at least 720 hours without any packet loss or errors, no halt and disconnections.
+     > Reference testing result #2: In an ordinary office environment, with a stable TCP transmission speed of 1MBytes/s  
+       for more than 5 hours, then to compare the transmission side and reception side, there is no packet missing and 
+       the two sides have the same datagram.
 
   (3) Practically Functional, Versatile and Flexible
 
@@ -36,11 +46,15 @@ The solution is a result of the dedicated design with optimization covering modu
           (2) Supporting DNS parsing and the target Socket could be in format of IP or domain
           (3) UDP Supporting Broadcasting , Multicasting, and Unicasting
         4、Supporting Multiple Link Channel and Multiple Clients
-          (1) Each Link could be configured independently to be a UDP,  TCP Server, or TCP Client. If configured as TCP Server, able to be connected by multiple clients simultaneously 
+          (1) Each Link could be configured independently to be a UDP,  TCP Server, or TCP Client. 
+              If configured as TCP Server, able to be connected by multiple clients simultaneously 
         5 Supporting transmission of bulk data (e.g. files) efficiently
-    > Easy, Flexible and Diverse Network Access Configuration(User interface of STA Access to AP/Routers), Adapted to Various Circumstance
+        
+     > Easy, Flexible and Diverse Network Access Configuration(User interface of STA Access to AP/Routers), 
+       Adapted to Various Circumstance
         1 Configured via an on-module WEB Page
-          (1) No necessity of additional APP, just use ordinary browser to input directly the SSID and password with barely no prerequisite limitations.
+          (1) No necessity of additional APP, just use ordinary browser to input directly the SSID and password 
+              with barely no prerequisite limitations.
         2 SmartConfig
           (1) Compatible with EspTouch SmartLink SmartConfig
           (2) In favor of WeChat Airkiss SmartConfig
@@ -59,12 +73,14 @@ The solution is a result of the dedicated design with optimization covering modu
         1 Low Power Solution with prerequisite of adequate transmission power for adequate distance/speed
         2 Sleep with manual or automatic wake-up, low power consumption to less than 1mA in deep-sleep
         3 Capability of Power-Off and Power-Down, low power consumption less than 1uA
-        4 Associated Methods to support quick wake-up, and shorten the WIFI re-connect period, which leads the WIFI Low Power Solution practical and meaningful
+        4 Associated Methods to support quick wake-up, and shorten the WIFI re-connect period, which leads 
+          the WIFI Low Power Solution practical and meaningful
         5 Discussion with Customer to support Low Power from point of whole MCU system 
 
  (4) Dedicated Module Hardware Design
 
-    > Design with Comprehensive Consideration and Technique of Signal Integrity, Power Integrity, and EMCompatibility, therefore, stable and no need of shield for a thin package with good heat release and verified by EMC certifications.
+    > Design with Comprehensive Consideration and Technique of Signal Integrity, Power Integrity, and EMCompatibility,
+      therefore, stable and no need of shield for a thin package with good heat release and verified by EMC certifications.
     > Factory Radio Frequency Compensation and supporting Frequency auto Calibration.
     > On-Module PCB Antenna in optimized Design, capable to transmission in 100+ meters distance without extern antenna
     > IPEX socket available for an external antenna to extern the communication distance and performance
@@ -78,8 +94,10 @@ The solution is a result of the dedicated design with optimization covering modu
 
   (6) Ordinary SPI Interface to MCU Host, Easy Integration and very Limited MCU resource occupation
 
-    > Standard SPI Slave Interface to MCU Host, adaptive to most normal MCU chip, providing a wide range of MCU solution selection.
-       1 Easy interconnection, only SPI bus required for all operations of configuration, query, and tranceiving, without necessity of UART Port
+    > Standard SPI Slave Interface to MCU Host, adaptive to most normal MCU chip, providing a wide range of 
+      MCU solution selection.
+       1 Easy interconnection, only SPI bus required for all operations of configuration, query, and tranceiving, 
+        without necessity of UART Port
        2 MCU Host Access WIFI Module in an ordinary SPI manner
     > TCI/IP Protocol Stack already integrated on-module
        1 No need of TCP/IP Protocol Stack or OS integration on MCU Anymore
@@ -88,16 +106,18 @@ The solution is a result of the dedicated design with optimization covering modu
   (7) Available with many SPI APIs inside the Driver Library
    
     > MCU could call these APIs to configure, query the module and perform high-speed data transmission
-    > MCU Host driver integrated with high-speed, high-efficiency, fault-tolerant, failure-correction, environment-adaptive and stable SPI access algorithm, to achieve a high-speed communication with very stable and efficient performance
-      1. High-Speed and High-Efficiency Algorithm in favor of a faster tranceiving performance faster than DMA
-      2. Balance Algorithm, based on analysis to the local parameters and RF environment, adaptive performing access balance and failure correction to ensure the performance and stalility
+    > MCU Host driver integrated with high-speed, high-efficiency, fault-tolerant, failure-correction, 
+      environment-adaptive and stable SPI access algorithm, to achieve a high-speed communication with very stable 
+      and efficient performance
+       1. High-Speed and High-Efficiency Algorithm in favor of a faster tranceiving performance faster than DMA
+       2. Balance Algorithm, based on analysis to the local parameters and RF environment, adaptive performing access 
+          balance and failure correction to ensure the performance and stalility
 
   (8) Compatible with Espressif Standard AT Command, and providing Anylinkin extended AT commands
-
     > UART Baud Rate exceeding 2Mbps
 
   (9) Available with MCU reference Code Projects Documentations of Datasheet, Integration Reference Manual etc. 
-  
+
     >  Verified MCU Reference Code Projects
        1 Easy integration, Debug, and Optimization
        2 Scalability Design in levels and easy for Platform
