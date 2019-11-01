@@ -27,12 +27,14 @@ practical functions). Mass deployment of more than 3 years tells that it is a tr
 and practically functional module solution:
 
  (1) High Effective Speed, Efficient, and Short-Delay
+ 
      > Measured effective speed exceeds Mega Bytes Per secons, capable of fast transmission bulk data such as audio, 
        video, and some other big data.
      > Nealy-RealTime tranceiving with a gap interval less than 1ms or even 10us, in favor of some applications 
        requiring short-delay communications.
      
  (2) Stable with extreamly Low Packet Loss (Actually no packet loss)
+ 
      > Reference testing result #1:  In an ordinary office environment with a stable transmission speed of 1MBytes/s, 
        module could run at least 720 hours without any packet loss or errors, no halt and disconnections.
      > Reference testing result #2: In an ordinary office environment, with a stable TCP transmission speed of 
@@ -85,11 +87,12 @@ and practically functional module solution:
 
  (4) Dedicated Module Hardware Design
 
-    > Design with Comprehensive Consideration and Technique of Signal Integrity, Power Integrity, and EMCompatibility,
-      therefore, stable and no need of shield for a thin package with good heat release and verified by 
-      EMC certifications.
+    > Design with Comprehensive Consideration and Technique of Signal Integrity, Power Integrity, 
+      and EMCompatibility, therefore, stable and no need of shield for a thin package with good heat release 
+      and verified by EMC certifications.
     > Factory Radio Frequency Compensation and supporting Frequency auto Calibration.
-    > On-Module PCB Antenna in optimized Design, capable to transmission in 100+ meters distance without extern antenna
+    > On-Module PCB Antenna in optimized Design, capable to transmission in 100+ meters distance 
+      without extern antenna
     > IPEX socket available for an external antenna to extern the communication distance and performance
 
  (5) Adaptive Package in Small-size
@@ -103,27 +106,31 @@ and practically functional module solution:
 
     > Standard SPI Slave Interface to MCU Host, adaptive to most normal MCU chip, providing a wide range of 
       MCU solution selection.
-       1 Easy interconnection, only SPI bus required for all operations of configuration, query, and tranceiving, 
-        without necessity of UART Port
+       1 Easy interconnection, only SPI bus required for all operations of configuration, query, 
+         and tranceiving, without necessity of UART Port
        2 MCU Host Access WIFI Module in an ordinary SPI manner
     > TCI/IP Protocol Stack already integrated on-module
        1 No need of TCP/IP Protocol Stack or OS integration on MCU Anymore
-       2 Therefore Easy Integration of the WIFI module to MCU system with very limited host resources requirement
+       2 Therefore Easy Integration of the WIFI module to MCU system 
+          with very limited host resources requirement
 
   (7) Available with many SPI APIs inside the Driver Library
    
     > MCU could call these APIs to configure, query the module and perform high-speed data transmission
     > MCU Host driver integrated with high-speed, high-efficiency, fault-tolerant, failure-correction, 
-      environment-adaptive and stable SPI access algorithm, to achieve a high-speed communication with very stable 
-      and efficient performance
-       1. High-Speed and High-Efficiency Algorithm in favor of a faster tranceiving performance faster than DMA
-       2. Balance Algorithm, based on analysis to the local parameters and RF environment, adaptive performing access 
-          balance and failure correction to ensure the performance and stalility
+      environment-adaptive and stable SPI access algorithm, to achieve a high-speed communication 
+      with very stable and efficient performance
+       1. High-Speed and High-Efficiency Algorithm in favor of a faster tranceiving performance
+          faster than DMA
+       2. Balance Algorithm, based on analysis to the local parameters and RF environment, adaptive 
+          performing access balance and failure correction to ensure the performance and stalility
 
   (8) Compatible with Espressif Standard AT Command, and providing Anylinkin extended AT commands
+  
     > UART Baud Rate exceeding 2Mbps
 
-  (9) Available with MCU reference Code Projects Documentations of Datasheet, Integration Reference Manual etc. 
+  (9) Available with MCU reference Code Projects Documentations of Datasheet, 
+      Integration Reference Manual etc. 
 
     >  Verified MCU Reference Code Projects
        1 Easy integration, Debug, and Optimization
