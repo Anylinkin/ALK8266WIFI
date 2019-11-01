@@ -1,16 +1,21 @@
 # ALK8266WIFI
 
-ALK8266WIFI, the Practically Functional, High-Throughput, Stable WIFI module Solution, Very Sutiable for High-Speed and bulk data transmission in MCU System to achieve a fast, stable, and effective communication exceeding 1MBytes/s 
+ALK8266WIFI, the Practically Functional, High-Throughput, Stable WIFI module Solution, Very Sutiable for High-Speed 
+and bulk data transmission in MCU System to achieve a fast, stable, and effective communication exceeding 1MBytes/s 
   
   https://www.ebay.com/itm/283536362871
 
 1 What is ALK8266WIFI ?
 
-ALK8266WIFI is a high-performance WIFI module with an effective transceiving throughput exceeding 1 Mega-Bytes per second(Mbytes/s), and verified by many mass and long-term deployments. It is a truly High-Speed WIFI module, practically functional, easy-to-integration, stable, and very suitable for MCU system with high-speed and block data transmission. Logically it is a converter between an SPI Slave Port and TCP/UDP WIFI packets.
+ALK8266WIFI is a high-performance WIFI module with an effective transceiving throughput exceeding 1 Mega-Bytes per second(Mbytes/s), and verified by many mass and long-term deployments. It is a truly High-Speed WIFI module, practically functional, easy-to-integration, stable, and very suitable for MCU system with high-speed and block data transmission. 
+Logically it is a converter between an SPI Slave Port and TCP/UDP WIFI packets.
 
 2 What is Application Scenarios of ALK8266WIFI?
 
-ALK8266WIFI module is suitable for “MCU High-Speed WIFI communication”, applications such as Audio/Video WIFI tranceiving, High-Speed ADC Sampling and transmission, SD card Bulk File data tranceiving etc. Especially for those MCU platforms which have no SDIO/USB but only SPI interface, or DO NOT expect a complex integration of those interfaces,  ALK8266 is a quite good choice. 
+ALK8266WIFI module is suitable for “MCU High-Speed WIFI communication”, applications such as Audio/Video WIFI tranceiving, 
+High-Speed ADC Sampling and transmission, SD card Bulk File data tranceiving etc. Especially for those MCU platforms which 
+have no SDIO/USB but only SPI interface, or DO NOT expect a complex integration of those interfaces,  ALK8266 is a quite 
+good choice. 
 
 3 What are features of ALK8266WIFI ?
 
@@ -24,15 +29,15 @@ and practically functional module solution:
  (1) High Effective Speed, Efficient, and Short-Delay
      > Measured effective speed exceeds Mega Bytes Per secons, capable of fast transmission bulk data such as audio, 
        video, and some other big data.
-     > Nealy-RealTime tranceiving with a gap interval less than 1ms or even 10us, in favor of some applications requiring 
-       short-delay communications.
+     > Nealy-RealTime tranceiving with a gap interval less than 1ms or even 10us, in favor of some applications 
+       requiring short-delay communications.
      
  (2) Stable with extreamly Low Packet Loss (Actually no packet loss)
      > Reference testing result #1:  In an ordinary office environment with a stable transmission speed of 1MBytes/s, 
        module could run at least 720 hours without any packet loss or errors, no halt and disconnections.
-     > Reference testing result #2: In an ordinary office environment, with a stable TCP transmission speed of 1MBytes/s  
-       for more than 5 hours, then to compare the transmission side and reception side, there is no packet missing and 
-       the two sides have the same datagram.
+     > Reference testing result #2: In an ordinary office environment, with a stable TCP transmission speed of 
+       1MBytes/s for more than 5 hours, then to compare the transmission side and reception side, there is no packet
+       missing and the two sides have the same datagram.
 
   (3) Practically Functional, Versatile and Flexible
 
@@ -53,12 +58,13 @@ and practically functional module solution:
      > Easy, Flexible and Diverse Network Access Configuration(User interface of STA Access to AP/Routers), 
        Adapted to Various Circumstance
         1 Configured via an on-module WEB Page
-          (1) No necessity of additional APP, just use ordinary browser to input directly the SSID and password 
-              with barely no prerequisite limitations.
+          (1) No necessity of additional APP, just use ordinary browser to input directly the SSID and 
+              password with barely no prerequisite limitations.
         2 SmartConfig
           (1) Compatible with EspTouch SmartLink SmartConfig
           (2) In favor of WeChat Airkiss SmartConfig
-          (3) Available with Configuration Stage Notice to increase the operational convenience and success rate.
+          (3) Available with Configuration Stage Notice to increase the operational convenience and 
+              success rate.
         3 Direct Configuration
           (1) Available with SPI Interface to Input SSID and password for access, no need of UART
           (2) Compatible with UART AT commands by Espressif to input the SSID and password directly
@@ -80,7 +86,8 @@ and practically functional module solution:
  (4) Dedicated Module Hardware Design
 
     > Design with Comprehensive Consideration and Technique of Signal Integrity, Power Integrity, and EMCompatibility,
-      therefore, stable and no need of shield for a thin package with good heat release and verified by EMC certifications.
+      therefore, stable and no need of shield for a thin package with good heat release and verified by 
+      EMC certifications.
     > Factory Radio Frequency Compensation and supporting Frequency auto Calibration.
     > On-Module PCB Antenna in optimized Design, capable to transmission in 100+ meters distance without extern antenna
     > IPEX socket available for an external antenna to extern the communication distance and performance
