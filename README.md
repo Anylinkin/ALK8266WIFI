@@ -28,18 +28,19 @@ and practically functional module solution:
 
  (1) High Effective Speed, Efficient, and Short-Delay
  
-     > Measured effective speed exceeds Mega Bytes Per secons, capable of fast transmission bulk data such as audio, 
-       video, and some other big data.
-     > Nealy-RealTime tranceiving with a gap interval less than 1ms or even 10us, in favor of some applications 
-       requiring short-delay communications.
+     > Measured effective speed exceeds Mega Bytes Per secons, capable of fast transmission bulk data 
+       such as audio, video, and some other big data.
+     > Nealy-RealTime tranceiving with a gap interval less than 1ms or even 10us, in favor of 
+       some applications requiring short-delay communications.
      
  (2) Stable with extreamly Low Packet Loss (Actually no packet loss)
  
-     > Reference testing result #1:  In an ordinary office environment with a stable transmission speed of 1MBytes/s, 
-       module could run at least 720 hours without any packet loss or errors, no halt and disconnections.
-     > Reference testing result #2: In an ordinary office environment, with a stable TCP transmission speed of 
-       1MBytes/s for more than 5 hours, then to compare the transmission side and reception side, there is no packet
-       missing and the two sides have the same datagram.
+     > Reference testing result #1:  In an ordinary office environment with a stable transmission 
+       speed of 1MBytes/s, module could run at least 720 hours without any packet loss or errors,
+       no halt and disconnections.
+     > Reference testing result #2: In an ordinary office environment, with a stable TCP transmission
+       speed of 1MBytes/s for more than 5 hours, then to compare the transmission side and reception side, 
+       there is no packet loss and the two sides have the same datagram.
 
   (3) Practically Functional, Versatile and Flexible
 
