@@ -3,7 +3,7 @@
 ALK8266WIFI, the Practically Functional, High-Throughput, Stable WIFI module Solution, Very Sutiable for High-Speed 
 and bulk data transmission in MCU System to achieve a fast, stable, and effective communication exceeding 1MBytes/s 
   
-  https://www.ebay.com/itm/283536362871
+  https://www.ebay.com/itm/284167278207
 
 1 What is ALK8266WIFI ?
 
@@ -210,4 +210,4 @@ and practically functional module solution:
        | C8051F120   |   98       |        12.25      |   550K-650K    |    500K-600K   |
        --------------|------------|-------------------|----------------|-----------------
        
- (9) Verified by 3+ years Mass Deployment
+ (9) Verified by 5+ years Mass Deployment
