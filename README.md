@@ -3,7 +3,7 @@
 ALK8266WIFI, the Practically Functional, High-Throughput, Stable WIFI module Solution, Very Sutiable for High-Speed 
 and bulk data transmission in MCU System to achieve a fast, stable, and effective communication exceeding 1MBytes/s 
   
-  https://www.ebay.com/itm/284167278207
+Here is a video demonstrating how ALK8266WIFI module extends an STM32 MCU to achieve a high-speed comuncation, either in transmission or reception,  with an effective throughput over 1MBytes/s: https://www.youtube.com/watch?v=6cAmyX15hYk without any packet loss!
 
 1 What is ALK8266WIFI ?
 
@@ -163,10 +163,18 @@ and practically functional module solution:
        | TI                              |  1 MSP430 Serials                         |
        |                                 |  2 C2000 Serials e.g. TMS320F28335        |
        |---------------------------------|-------------------------------------------|
-       | Holtek                          |  1 HT32 Serials, e.e.HT32F16xx            |
+       | Nordic                          |  1 nRF52 Serials                          |
        |---------------------------------|-------------------------------------------|
        | Nuvoton                         |  1 NUC123xx Serials                       |
        |                                 |  2 M45x Serials e.g. M453VE6AE            |
+       |---------------------------------|-------------------------------------------|
+       | Holtek                          |  1 HT32 Serials, e.e.HT32F16xx            |
+       |---------------------------------|-------------------------------------------|
+       | GigaDevice                      |  1 GD32 Serials                           |
+       |---------------------------------|-------------------------------------------|
+       | MindMotion                      |  1 MM32 Serials                           |
+       |---------------------------------|-------------------------------------------|
+       | Huada                           |  1 HC32 Serials                           |
        |---------------------------------|-------------------------------------------|
        | Zhuhai Jieli                    |  1 AD200                                  |
        |---------------------------------|-------------------------------------------|
