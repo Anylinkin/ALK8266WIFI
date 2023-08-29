@@ -226,5 +226,5 @@ and practically functional module solution:
        --------------|------------|-------------------|----------------|-----------------
        
  (10) Verified by 5+ years Mass Deployment
-      Many Models integrated with ALK8266WIFI module has been Certificated by FCC etc
+      Many Product Models integrated with ALK8266WIFI module have been Certificated by FCC etc.
       
