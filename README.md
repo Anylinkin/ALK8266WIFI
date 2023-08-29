@@ -225,4 +225,6 @@ and practically functional module solution:
        | C8051F120   |   98       |        12.25      |   550K-650K    |    500K-600K   |
        --------------|------------|-------------------|----------------|-----------------
        
- (9) Verified by 5+ years Mass Deployment
+ (10) Verified by 5+ years Mass Deployment
+      Many Models integrated with ALK8266WIFI module has been Certificated by FCC etc
+      
