@@ -5,6 +5,7 @@ and bulk data transmission in MCU System to achieve a fast, stable, and effectiv
   
 Here is a video demonstrating how ALK8266WIFI module extends an STM32 MCU to achieve a high-speed comuncation, either in transmission or reception,  with an effective throughput over 1MBytes/s without any packet loss: https://www.youtube.com/watch?v=6cAmyX15hYk
 Purchase on tindie: https://www.tindie.com/products/40177/
+Purchase on ebay:   https://www.ebay.com/itm/285444035092
 
 
 1 What is ALK8266WIFI ?
